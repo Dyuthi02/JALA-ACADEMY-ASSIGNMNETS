@@ -5,21 +5,22 @@ package JALA_ACADEMY_ASSIGNMNETS.Arrays;
 import java.util.Scanner;
 
 public class Average {
-     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int sum=0,c=0;
-        int a[]=new int[n];
-        for(int i=0;i<n;i++)
-        {
-            a[i]=sc.nextInt();
+    static void average(int a[]) {
+        int sum = 0;
+
+        for (int i : a) {
+            
+            sum = sum + i;
         }
-        for(int i=0;i<n;i++)
-        {
-            c++;
-            sum+=a[i];
-        }
-        System.out.print("Average value of an array of integers is : "+(float)sum/c);
-        sc.close();
-    }    
+        
+        float average = sum / a.length;
+        
+        System.out.print("The Average value of an array is " + average);
+    }
+
+    public static void main(String[] args) {
+        
+        int a[] = {10, 20, 30, 40, 50};
+        
+        average(a);
 }

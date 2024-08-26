@@ -3,24 +3,21 @@
 package JALA_ACADEMY_ASSIGNMNETS.Arrays;
 
 
-import java.util.Scanner;
-
 public class Add 
 {
+    static int arrSum(int a[]) {
+        int sum = 0;
+        for (int i = 0; i < a.length; i++)
+            sum = sum + a[i];
+        return sum;
+    }
+
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        int n=sc.nextInt();
-        int sum=0;
-        int a[]=new int[n];
-        for(int i=0;i<n;i++)
-        {
-            a[i]=sc.nextInt();
+        int a[] = {10, 20, 30, 40, 50};
+        
+        for (int i : a){
+            System.out.print(i + " + ");
         }
-        for(int i=0;i<n;i++)
-        {
-            sum+=a[i];
-        }
-        System.out.print("sum of numbers of an array is : "+sum);
-        sc.close();
-    }    
+        System.out.print(" =  " + arrSum(a));
+    }
 }
