@@ -7,7 +7,7 @@ public class CallingMethod
     void isMethod() 
     {
         //fields are used to store data
-        String a = "This is a Method";
+        String a = "This is a method name";
         System.out.println(a);
     }
 
