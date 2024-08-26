@@ -1,4 +1,4 @@
-//2. Write a program to print your name
+//6. Write a function to print your name and call the function from main method
 
 package JALA_ACADEMY_ASSIGNMNETS;
 
