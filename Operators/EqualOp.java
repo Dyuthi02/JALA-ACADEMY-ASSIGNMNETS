@@ -1,4 +1,4 @@
-//3. Program to equal operator and not equal operators
+//4. Write a program to find the two numbers equal or not.
 
 package JALA_ACADEMY_ASSIGNMNETS.Operators;
 
@@ -17,7 +17,7 @@ public class EqualOp
         System.out.print("Enter second number : ");
 
         int b = sc.nextInt();
-        
+
         //equal operator (==)
         if (a == b) {
             System.out.println("Both are numbers equal");
