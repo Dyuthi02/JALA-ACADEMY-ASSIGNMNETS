@@ -5,7 +5,7 @@ Create a class with main method. Create an object for each class A, B and C in m
 Call an overridden method with super class reference to B and C class’s objects
 Runtime Polymorphism with Data Members/Instance variables, Repeat the above process only for data members */
 
-package JALA_ACADEMY_ASSIGNMNETS.Inheritance;
+//package JALA_ACADEMY_ASSIGNMNETS.Inheritance;
 
 
 import java.util.Scanner;
