@@ -1,6 +1,9 @@
 //Write a program to read text from .txt file using InputStream
 
-package JALA_ACADEMY_ASSIGNMNETS.IO;
+//package JALA_ACADEMY_ASSIGNMNETS.IO;
+
+
+import java.io.*;
 
 public class UsingInputStream {
     public static void main(String[] args) {
