@@ -1,0 +1,69 @@
+/* Basic styles for the webpage */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+}
+
+/* Pseudo-class for hover effect on links */
+nav ul li a:hover {
+    background: #555;
+    color: #fff;
+}
+
+/* Pseudo-class for visited links */
+nav ul li a:visited {
+    color: #666;
+}
+
+/* Pseudo-class for active link */
+nav ul li a:active {
+    color: #000;
+}
+
+/* Pseudo-element for first letter of a paragraph */
+main section p::first-letter {
+    font-size: 2em;
+    font-weight: bold;
+    color: #007BFF;
+}
+
+/* Pseudo-element for inserting content before a section */
+main section::before {
+    content: "Section: ";
+    font-weight: bold;
+    color: #333;
+}
+
+/* Pseudo-class for the first child of a list */
+nav ul li:first-child a {
+    font-weight: bold;
+}
+
+/* Pseudo-class for the last child of a section */
+main section:last-child {
+    border-top: 2px solid #333;
+    padding-top: 10px;
+}
